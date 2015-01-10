@@ -21,7 +21,7 @@ require('cli').withStdin(function (stdin) {
 
 
 	/* Base64 digest */
-	var base64digest = hash.digest('base64');
+	var base64digest = hash.digest('hex');
 
 	/* Output the hash */
 	console.log(base64digest);
