@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 var crypto = require('crypto');
+var uniqid = require('./uniqid');
 
 require('cli').withStdin(function (stdin) {
 	try {
@@ -10,19 +11,5 @@ require('cli').withStdin(function (stdin) {
 		return;
 	}
 
-	var hash = crypto.createHash('md5');
-	
-	/* Feed our hash with some fields,
-	   which will all be lowercased, 
-	   so later changing the capitalization
-	   will not effect the hashes. */
-
-	hash.update(protein.fullName.toLowerCase());
-
-
-	/* Calculate digest */
-	var digest = hash.digest('hex');
-
-	/* Output the hash */
-	console.log(digest);
+	console.log(uniqid(protein));
 });
