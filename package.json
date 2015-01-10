@@ -1,0 +1,24 @@
+{
+  "name": "proteins",
+  "version": "1.0.0",
+  "description": "standardized system of protein nomenclature and identification",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ArchimedesPi/proteins.git"
+  },
+  "keywords": [
+    "biology",
+    "crypto",
+    "proteins"
+  ],
+  "author": "Liam Marshall",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArchimedesPi/proteins/issues"
+  },
+  "homepage": "https://github.com/ArchimedesPi/proteins",
+  "dependencies": {
+    "cli": "^0.6.5",
+    "sha3": "^1.0.0"
+  }
+}
