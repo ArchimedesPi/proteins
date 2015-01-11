@@ -1,15 +1,11 @@
 #!/usr/bin/env node
 
 var crypto = require('crypto');
-var uniqid = require('./uniqid');
+var Protein = require('./protein');
 
 require('cli').withStdin(function (stdin) {
-	try {
-		protein = JSON.parse(stdin);
-	} catch (er) {
-		console.log('error parsing json file', er);
-		return;
-	}
+	protein = new Protein();
+	protein.load(stdin);
 
-	console.log(uniqid(protein));
+	console.log(protein.id());
 });
