@@ -7,8 +7,8 @@ It is instead a identification number for a particular X-ray crystallograph of a
 
 This project sets out to refactor the situation of identification codes and data storage formats.
 We propose a JSON-based system storing protein metadata, and a dual identifier system containing two sets of identifiers:
-	* a global, long hexadecimal identifier
-	* and a short, human-readable identifier
+  * a global, long hexadecimal identifier
+  * and a short, human-readable identifier
 
 We've implemented this system in this repository.
 To generate an ID from a JSON protein description file:
