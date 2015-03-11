@@ -4,7 +4,7 @@
   "description": "standardized system of protein nomenclature and identification",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ArchimedesPi/proteins.git"
+    "url": "https://github.com/proteins/proteins.git"
   },
   "main": "protein.js",
   "keywords": [
@@ -15,9 +15,9 @@
   "author": "Liam Marshall",
   "license": "GPLv3",
   "bugs": {
-    "url": "https://github.com/ArchimedesPi/proteins/issues"
+    "url": "https://github.com/proteins/proteins/issues"
   },
-  "homepage": "https://github.com/ArchimedesPi/proteins",
+  "homepage": "https://github.com/proteins/proteins",
   "dependencies": {
     "cli": "^0.6.5",
     "debug": "^2.1.1",
