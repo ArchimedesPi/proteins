@@ -1,14 +1,11 @@
 var uniqid = require('./uniqid');
 
-function Protein() {
+module.exports = class Protein {
+	load(jsonstring) {
+		this.protein = JSON.parse(jsonstring);
+	}
+
+	get id() {
+		return uniqid(this.protein);
+	}
 }
-
-Protein.prototype.load = function (jsondata) {
-	this.protein = JSON.parse(jsondata);
-};
-
-Protein.prototype.id = function () {
-	return uniqid(this.protein);
-};
-
-module.exports = Protein;
