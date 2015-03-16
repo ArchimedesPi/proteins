@@ -10,7 +10,8 @@ We propose a JSON-based system storing protein metadata, and a dual identifier s
   * and a short, human-readable identifier
 
 We've implemented this system in this repository.
+After installing with `npm install -g proteins`:
 To generate an ID from a JSON protein description file:
 ````
-node makeid.js < ./test.json
+mkproteinid < ./test.json
 ````
