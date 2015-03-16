@@ -1,3 +1,4 @@
+"use strict";
 var uniqid = require('./uniqid');
 
 module.exports = class Protein {

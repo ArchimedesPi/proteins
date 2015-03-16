@@ -1,3 +1,4 @@
+"use strict";
 var crypto = require('crypto');
 var _ = require('underscore');
 var debug = require('debug')('uniqid');
