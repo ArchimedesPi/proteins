@@ -1,10 +1,11 @@
 #!/usr/bin/env node
+"use strict";
 
 var Protein = require('./protein');
 
 require('cli').withStdin(function (stdin) {
-	var protein = new Protein();
+	let protein = new Protein();
 	protein.load(stdin);
 
-	console.log(protein.id());
+	console.log(protein.id);
 });
