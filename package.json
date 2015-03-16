@@ -6,6 +6,9 @@
     "type": "git",
     "url": "https://github.com/proteins/proteins.git"
   },
+  "bin": {
+    "mkproteinid": "./bin/mkproteinid"
+  },
   "main": "protein.js",
   "keywords": [
     "biology",
