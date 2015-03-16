@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 "use strict";
 
-var Protein = require('./protein');
+let Protein = require('./protein');
 
 require('cli').withStdin(function (stdin) {
 	let protein = new Protein();

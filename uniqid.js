@@ -1,7 +1,7 @@
 "use strict";
-var crypto = require('crypto');
-var _ = require('underscore');
-var debug = require('debug')('uniqid');
+let crypto = require('crypto');
+let _ = require('underscore');
+let debug = require('debug')('uniqid');
 
 module.exports = function (protein) {
 	let hash = crypto.createHash('md5');

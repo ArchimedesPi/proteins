@@ -1,5 +1,5 @@
 "use strict";
-var uniqid = require('./uniqid');
+let uniqid = require('./uniqid');
 
 module.exports = class Protein {
 	load(jsonstring) {
